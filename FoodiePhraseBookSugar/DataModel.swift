@@ -13,10 +13,12 @@ let wordsDataSet = ["salt","sugar","water","coffee", "beer", "Bread", "Rice", "s
 var globalWordLangFlag =  ("en-US",  "English", "United States", "American English","🇺🇸")
 var globalSelectedWordLangFlag = ("en-US",  "English", "United States", "American English","🇺🇸")
 
+var theWord = "theWord"
 
-var langCodeAll38 = [
+
+let  langCodeAll38 = [
     ("en-US",  "English", "United States", "American English","🇺🇸"),
-    ("ar-SA","Arabic","Saudi Arabia","العربية","🇸🇦"),
+    
     ("cs-CZ", "Czech", "Czech Republic","český","🇨🇿"),
     ("da-DK", "Danish","Denmark","Dansk","🇩🇰"),
     ("de-DE",       "German", "Germany", "Deutsche","🇩🇪"),
@@ -51,7 +53,8 @@ var langCodeAll38 = [
     ("tr-TR",       "Turkish",     "Turkey","Türkçe","🇹🇷"),
     ("zh-CN",       "Chinese",     "China","漢語/汉语","🇨🇳"),
     ("zh-HK",       "Chinese",   "Hong Kong","漢語/汉语","🇭🇰"),
-    ("zh-TW",       "Chinese",     "Taiwan","漢語/汉语","🇹🇼")
+    ("zh-TW",       "Chinese",     "Taiwan","漢語/汉语","🇹🇼"),
+    ("ar-SA","Arabic","Saudi Arabia","العربية","🇸🇦")
 ]
 
 

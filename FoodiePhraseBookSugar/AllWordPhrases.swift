@@ -50,6 +50,13 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
     }
     
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        let myString = "selected: \(indexPath.row)"
+        theWord = myString
+        
+    }
+    
     
     
     
