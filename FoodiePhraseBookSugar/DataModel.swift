@@ -57,8 +57,8 @@ let  langCodeAll38 = [
     ("ar-SA","Arabic","Saudi Arabia","العربية","🇸🇦")
 ]
 
-var saltDictionary = [("en-US","salt"),("cs-CZ","sůl"),
-,("da-DK","salt")
+var saltTuplesArray = [("en-US","salt"),("cs-CZ","sůl"),
+("da-DK","salt")
 ,("de-DE","Salz-")
 ,("el-GR", "άλας")
 ,("fi-FI", "suolaa")
@@ -82,7 +82,7 @@ var saltDictionary = [("en-US","salt"),("cs-CZ","sůl"),
 ,("zh-TW", "鹽")]
 
 
-var sugarDictionary = [("en-US","sugar")
+var sugarTuplesArray = [("en-US","sugar")
 
 ,("fr-FR","sucres")
 ,("es-ES","azúcares")
@@ -112,65 +112,16 @@ var sugarDictionary = [("en-US","sugar")
 ,("zh-TW", "糖")]
 
 
-
-var coffeeDictionary = ["en-US":"coffee"]
-
-coffeeDictionary["fr-FR"] = "café"
-coffeeDictionary["es-ES"] = "café"
-
-coffeeDictionary["it-IT"] = "caffè"
-coffeeDictionary["pt-PT"] = "café"
-coffeeDictionary["el-GR"] = "καφές"
-coffeeDictionary["tr-TR"] = "Kahve"
-
-coffeeDictionary["ru-RU"] = "кофе"
-coffeeDictionary["cs-CZ"] = "káva"
-coffeeDictionary["hu-HU"] = "kávé"
-
-coffeeDictionary["sv-SE"] = "kaffe"
-coffeeDictionary["nl-NL"] = "koffie"
-coffeeDictionary["da-DK"] = "kaffe"
-coffeeDictionary["de-DE"] = "Kaffee"
-
-coffeeDictionary["he-IL"] = "קָפֶה"
-coffeeDictionary["hi-IN"] = "कॉफ़ी"
-coffeeDictionary["ar-SA"] = "قهوة"
-coffeeDictionary["id-ID"] = "kopi"
-
-coffeeDictionary["th-TH"] = "กาแฟ"
-coffeeDictionary["ko-KR"] = "커피"
-coffeeDictionary["ja-JP"] = "コー​​ヒー"
-coffeeDictionary["zh-TW"] = "咖啡"
+var coffeeTuplesArray = [("nl-NL","koffie"), ("de-DE", "Kaffee"), ("tr-TR", "Kahve"), ("en-US", "coffee"), ("hu-HU", "kávé"), ("sv-SE", "kaffe"), ("id-ID","kopi"), ("zh-TW", "咖啡"),( "da-DK", "kaffe"), ("ar-SA", "قهوة"), ("el-GR", "καφές"), ("fr-FR", "café"), ("th-TH", "กาแฟ"), ("ru-RU", "кофе"), ("hi-IN", "कॉफ़ी"), ("pt-PT", "café"), ("ko-KR", "커피"), ("es-ES", "café"), ("ja-JP", "コー​​ヒー"), ("it-IT", "caffè"), ("he-IL", "קָפֶה"), ("cs-CZ", "káva")]
 
 
-var waterDictionary = ["en-US":"water"]
-waterDictionary["fr-FR"] = "eau"
-waterDictionary["es-ES"] = "agua"
-
-waterDictionary["it-IT"] = "acqua"
-waterDictionary["el-GR"] = "νερό"
-waterDictionary["tr-TR"] = "su"
-waterDictionary["hu-HU"] = "só"
+var waterTuplesArray = [("nl-NL", "water"), ("de-DE", "Wasser"), ("tr-TR", "su"), ("en-US", "water"), ("hu-HU", "só"),( "sv-SE", "vatten"), ("id-ID", "air"), ("zh-TW", "水"), ("da-DK", "vand"), ("ar-SA", "ماء"), ("el-GR", "νερό"), ("fr-FR", "eau"), ("th-TH", "น้ำ"), ("ru-RU", "воды"),( "hi-IN", "víz"),("pt-PT", "água"), ("ja-JP", "水"), ("es-ES", "agua"), ("ko-KR", "물"),( "it-IT", "acqua"), ("he-IL", "מַיִם"), ("cs-CZ", "voda")   ]
 
 
-waterDictionary["ru-RU"] = "воды"
-waterDictionary["cs-CZ"] = "voda"
-waterDictionary["pt-PT"] = "água"
+var coffeeDictionary = ["nl-NL": "koffie", "de-DE": "Kaffee", "tr-TR": "Kahve", "en-US": "coffee", "hu-HU": "kávé", "sv-SE": "kaffe", "id-ID": "kopi", "zh-TW": "咖啡", "da-DK": "kaffe", "ar-SA": "قهوة", "el-GR": "καφές", "fr-FR": "café", "th-TH": "กาแฟ", "ru-RU": "кофе", "hi-IN": "कॉफ़ी", "pt-PT": "café", "ko-KR": "커피", "es-ES": "café", "ja-JP": "コー​​ヒー", "it-IT": "caffè", "he-IL": "קָפֶה", "cs-CZ": "káva"]
 
-waterDictionary["sv-SE"] = "vatten"
-waterDictionary["nl-NL"] = "water"
-waterDictionary["da-DK"] = "vand"
-waterDictionary["de-DE"] = "Wasser"
 
-waterDictionary["he-IL"] = "מַיִם"
-waterDictionary["hi-IN"] = "víz"
-waterDictionary["ar-SA"] = "ماء"
-waterDictionary["id-ID"] = "air"
-
-waterDictionary["th-TH"] = "น้ำ"
-waterDictionary["ja-JP"] = "水"
-waterDictionary["ko-KR"] = "물"
-waterDictionary["zh-TW"] = "水"
+var waterDictionary = ["nl-NL": "water", "de-DE": "Wasser", "tr-TR": "su", "en-US": "water", "hu-HU": "só", "sv-SE": "vatten", "id-ID": "air", "zh-TW": "水", "da-DK": "vand", "ar-SA": "ماء", "el-GR": "νερό", "fr-FR": "eau", "th-TH": "น้ำ", "ru-RU": "воды", "hi-IN": "víz", "pt-PT": "água", "ja-JP": "水", "es-ES": "agua", "ko-KR": "물", "it-IT": "acqua", "he-IL": "מַיִם", "cs-CZ": "voda"]
 
 
 
