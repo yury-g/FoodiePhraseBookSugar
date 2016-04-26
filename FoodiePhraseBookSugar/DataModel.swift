@@ -57,4 +57,120 @@ let  langCodeAll38 = [
     ("ar-SA","Arabic","Saudi Arabia","العربية","🇸🇦")
 ]
 
+var saltDictionary = [("en-US","salt"),("cs-CZ","sůl"),
+,("da-DK","salt")
+,("de-DE","Salz-")
+,("el-GR", "άλας")
+,("fi-FI", "suolaa")
+,("fr-FR", "sel")
+,("es-ES", "sal")
+,("he-IL", "מלח")
+,("hi-IN", "नमक")
+,("hu-HU", "só")
+,("id-ID", "garam")
+,("it-IT", "sale")
+,("ja-JP", "塩")
+,("ko-KR", "소금")
+,("nl-NL", "zout")
+,("ar-SA", "ملح")
+,("no-NO", "salt")
+,("pt-PT", "sal")
+,("ru-RU", "соль")
+,("sv-SE", "salt-")
+,("th-TH", "เกลือ")
+,("tr-TR", "tuz")
+,("zh-TW", "鹽")]
+
+
+var sugarDictionary = ["en-US":"sugar"]
+
+sugarDictionary["fr-FR"] = "sucres"
+sugarDictionary["es-ES"] = "azúcares"
+
+sugarDictionary["it-IT"] = "zucchero"
+sugarDictionary["pt-PT"] = "açúcar"
+sugarDictionary["el-GR"] = "ζάχαρη"
+sugarDictionary["tr-TR"] = "şeker"
+
+sugarDictionary["ru-RU"] = "сахар"
+sugarDictionary["cs-CZ"] = "cukr"
+sugarDictionary["hu-HU"] = "cukor"
+
+sugarDictionary["sv-SE"] = "socker"
+sugarDictionary["nl-NL"] = "suiker"
+sugarDictionary["da-DK"] = "sukker"
+sugarDictionary["de-DE"] = "Zucker"
+
+sugarDictionary["he-IL"] = "סוכר"
+sugarDictionary["hi-IN"] = "चीनी"
+sugarDictionary["ar-SA"] = "السكر"
+sugarDictionary["id-ID"] = "gula"
+
+sugarDictionary["th-TH"] = "น้ำตาล"
+sugarDictionary["ko-KR"] = "설탕"
+sugarDictionary["ja-JP"] = "シュガー"
+sugarDictionary["zh-TW"] = "糖"
+
+
+
+var coffeeDictionary = ["en-US":"coffee"]
+
+coffeeDictionary["fr-FR"] = "café"
+coffeeDictionary["es-ES"] = "café"
+
+coffeeDictionary["it-IT"] = "caffè"
+coffeeDictionary["pt-PT"] = "café"
+coffeeDictionary["el-GR"] = "καφές"
+coffeeDictionary["tr-TR"] = "Kahve"
+
+coffeeDictionary["ru-RU"] = "кофе"
+coffeeDictionary["cs-CZ"] = "káva"
+coffeeDictionary["hu-HU"] = "kávé"
+
+coffeeDictionary["sv-SE"] = "kaffe"
+coffeeDictionary["nl-NL"] = "koffie"
+coffeeDictionary["da-DK"] = "kaffe"
+coffeeDictionary["de-DE"] = "Kaffee"
+
+coffeeDictionary["he-IL"] = "קָפֶה"
+coffeeDictionary["hi-IN"] = "कॉफ़ी"
+coffeeDictionary["ar-SA"] = "قهوة"
+coffeeDictionary["id-ID"] = "kopi"
+
+coffeeDictionary["th-TH"] = "กาแฟ"
+coffeeDictionary["ko-KR"] = "커피"
+coffeeDictionary["ja-JP"] = "コー​​ヒー"
+coffeeDictionary["zh-TW"] = "咖啡"
+
+
+var waterDictionary = ["en-US":"water"]
+waterDictionary["fr-FR"] = "eau"
+waterDictionary["es-ES"] = "agua"
+
+waterDictionary["it-IT"] = "acqua"
+waterDictionary["el-GR"] = "νερό"
+waterDictionary["tr-TR"] = "su"
+waterDictionary["hu-HU"] = "só"
+
+
+waterDictionary["ru-RU"] = "воды"
+waterDictionary["cs-CZ"] = "voda"
+waterDictionary["pt-PT"] = "água"
+
+waterDictionary["sv-SE"] = "vatten"
+waterDictionary["nl-NL"] = "water"
+waterDictionary["da-DK"] = "vand"
+waterDictionary["de-DE"] = "Wasser"
+
+waterDictionary["he-IL"] = "מַיִם"
+waterDictionary["hi-IN"] = "víz"
+waterDictionary["ar-SA"] = "ماء"
+waterDictionary["id-ID"] = "air"
+
+waterDictionary["th-TH"] = "น้ำ"
+waterDictionary["ja-JP"] = "水"
+waterDictionary["ko-KR"] = "물"
+waterDictionary["zh-TW"] = "水"
+
+
 
