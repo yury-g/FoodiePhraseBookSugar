@@ -82,34 +82,34 @@ var saltDictionary = [("en-US","salt"),("cs-CZ","sůl"),
 ,("zh-TW", "鹽")]
 
 
-var sugarDictionary = ["en-US":"sugar"]
+var sugarDictionary = [("en-US","sugar")
 
-sugarDictionary["fr-FR"] = "sucres"
-sugarDictionary["es-ES"] = "azúcares"
+,("fr-FR","sucres")
+,("es-ES","azúcares")
 
-sugarDictionary["it-IT"] = "zucchero"
-sugarDictionary["pt-PT"] = "açúcar"
-sugarDictionary["el-GR"] = "ζάχαρη"
-sugarDictionary["tr-TR"] = "şeker"
+,("it-IT", "zucchero")
+,("pt-PT","açúcar")
+,("el-GR", "ζάχαρη")
+,("tr-TR", "şeker")
 
-sugarDictionary["ru-RU"] = "сахар"
-sugarDictionary["cs-CZ"] = "cukr"
-sugarDictionary["hu-HU"] = "cukor"
+,("ru-RU", "сахар")
+,("cs-CZ", "cukr")
+,("hu-HU", "cukor")
 
-sugarDictionary["sv-SE"] = "socker"
-sugarDictionary["nl-NL"] = "suiker"
-sugarDictionary["da-DK"] = "sukker"
-sugarDictionary["de-DE"] = "Zucker"
+,("sv-SE", "socker")
+,("nl-NL", "suiker")
+,("da-DK", "sukker")
+,("de-DE", "Zucker")
 
-sugarDictionary["he-IL"] = "סוכר"
-sugarDictionary["hi-IN"] = "चीनी"
-sugarDictionary["ar-SA"] = "السكر"
-sugarDictionary["id-ID"] = "gula"
+,("he-IL", "סוכר")
+,("hi-IN", "चीनी")
+,("ar-SA", "السكر")
+,("id-ID", "gula")
 
-sugarDictionary["th-TH"] = "น้ำตาล"
-sugarDictionary["ko-KR"] = "설탕"
-sugarDictionary["ja-JP"] = "シュガー"
-sugarDictionary["zh-TW"] = "糖"
+,("th-TH", "น้ำตาล")
+,("ko-KR", "설탕")
+,("ja-JP", "シュガー")
+,("zh-TW", "糖")]
 
 
 
