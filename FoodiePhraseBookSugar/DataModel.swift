@@ -58,58 +58,58 @@ let  langCodeAll38 = [
 ]
 
 var saltTuplesArray = [("en-US","salt"),("cs-CZ","sůl"),
-("da-DK","salt")
-,("de-DE","Salz-")
-,("el-GR", "άλας")
-,("fi-FI", "suolaa")
-,("fr-FR", "sel")
-,("es-ES", "sal")
-,("he-IL", "מלח")
-,("hi-IN", "नमक")
-,("hu-HU", "só")
-,("id-ID", "garam")
-,("it-IT", "sale")
-,("ja-JP", "塩")
-,("ko-KR", "소금")
-,("nl-NL", "zout")
-,("ar-SA", "ملح")
-,("no-NO", "salt")
-,("pt-PT", "sal")
-,("ru-RU", "соль")
-,("sv-SE", "salt-")
-,("th-TH", "เกลือ")
-,("tr-TR", "tuz")
-,("zh-TW", "鹽")]
+                       ("da-DK","salt")
+    ,("de-DE","Salz-")
+    ,("el-GR", "άλας")
+    ,("fi-FI", "suolaa")
+    ,("fr-FR", "sel")
+    ,("es-ES", "sal")
+    ,("he-IL", "מלח")
+    ,("hi-IN", "नमक")
+    ,("hu-HU", "só")
+    ,("id-ID", "garam")
+    ,("it-IT", "sale")
+    ,("ja-JP", "塩")
+    ,("ko-KR", "소금")
+    ,("nl-NL", "zout")
+    ,("ar-SA", "ملح")
+    ,("no-NO", "salt")
+    ,("pt-PT", "sal")
+    ,("ru-RU", "соль")
+    ,("sv-SE", "salt-")
+    ,("th-TH", "เกลือ")
+    ,("tr-TR", "tuz")
+    ,("zh-TW", "鹽")]
 
 
 var sugarTuplesArray = [("en-US","sugar")
-
-,("fr-FR","sucres")
-,("es-ES","azúcares")
-
-,("it-IT", "zucchero")
-,("pt-PT","açúcar")
-,("el-GR", "ζάχαρη")
-,("tr-TR", "şeker")
-
-,("ru-RU", "сахар")
-,("cs-CZ", "cukr")
-,("hu-HU", "cukor")
-
-,("sv-SE", "socker")
-,("nl-NL", "suiker")
-,("da-DK", "sukker")
-,("de-DE", "Zucker")
-
-,("he-IL", "סוכר")
-,("hi-IN", "चीनी")
-,("ar-SA", "السكر")
-,("id-ID", "gula")
-
-,("th-TH", "น้ำตาล")
-,("ko-KR", "설탕")
-,("ja-JP", "シュガー")
-,("zh-TW", "糖")]
+    
+    ,("fr-FR","sucres")
+    ,("es-ES","azúcares")
+    
+    ,("it-IT", "zucchero")
+    ,("pt-PT","açúcar")
+    ,("el-GR", "ζάχαρη")
+    ,("tr-TR", "şeker")
+    
+    ,("ru-RU", "сахар")
+    ,("cs-CZ", "cukr")
+    ,("hu-HU", "cukor")
+    
+    ,("sv-SE", "socker")
+    ,("nl-NL", "suiker")
+    ,("da-DK", "sukker")
+    ,("de-DE", "Zucker")
+    
+    ,("he-IL", "סוכר")
+    ,("hi-IN", "चीनी")
+    ,("ar-SA", "السكر")
+    ,("id-ID", "gula")
+    
+    ,("th-TH", "น้ำตาล")
+    ,("ko-KR", "설탕")
+    ,("ja-JP", "シュガー")
+    ,("zh-TW", "糖")]
 
 
 var coffeeTuplesArray = [("nl-NL","koffie"), ("de-DE", "Kaffee"), ("tr-TR", "Kahve"), ("en-US", "coffee"), ("hu-HU", "kávé"), ("sv-SE", "kaffe"), ("id-ID","kopi"), ("zh-TW", "咖啡"),( "da-DK", "kaffe"), ("ar-SA", "قهوة"), ("el-GR", "καφές"), ("fr-FR", "café"), ("th-TH", "กาแฟ"), ("ru-RU", "кофе"), ("hi-IN", "कॉफ़ी"), ("pt-PT", "café"), ("ko-KR", "커피"), ("es-ES", "café"), ("ja-JP", "コー​​ヒー"), ("it-IT", "caffè"), ("he-IL", "קָפֶה"), ("cs-CZ", "káva")]
@@ -122,6 +122,5 @@ var coffeeDictionary = ["nl-NL": "koffie", "de-DE": "Kaffee", "tr-TR": "Kahve", 
 
 
 var waterDictionary = ["nl-NL": "water", "de-DE": "Wasser", "tr-TR": "su", "en-US": "water", "hu-HU": "só", "sv-SE": "vatten", "id-ID": "air", "zh-TW": "水", "da-DK": "vand", "ar-SA": "ماء", "el-GR": "νερό", "fr-FR": "eau", "th-TH": "น้ำ", "ru-RU": "воды", "hi-IN": "víz", "pt-PT": "água", "ja-JP": "水", "es-ES": "agua", "ko-KR": "물", "it-IT": "acqua", "he-IL": "מַיִם", "cs-CZ": "voda"]
-
 
 
