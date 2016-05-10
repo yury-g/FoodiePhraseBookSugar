@@ -246,6 +246,7 @@
                         <constraints>
                             <constraint firstItem="60F-w2-h1f" firstAttribute="leading" secondItem="Z1l-OD-iUf" secondAttribute="leadingMargin" constant="19" id="6yw-d9-nHF"/>
                             <constraint firstItem="vxy-tC-lXa" firstAttribute="leading" secondItem="Bkf-rP-dL6" secondAttribute="trailing" constant="8" symbolic="YES" id="71F-s3-Afv"/>
+                            <constraint firstItem="emM-fE-iEt" firstAttribute="top" secondItem="Bkf-rP-dL6" secondAttribute="bottom" constant="30" id="8sL-aa-CPp"/>
                             <constraint firstItem="Bkf-rP-dL6" firstAttribute="top" secondItem="60F-w2-h1f" secondAttribute="bottom" constant="27" id="AKu-1q-hdr"/>
                             <constraint firstItem="60F-w2-h1f" firstAttribute="top" secondItem="Yvd-z2-b1e" secondAttribute="bottom" constant="38" id="EXS-Ym-Mfb"/>
                             <constraint firstItem="60F-w2-h1f" firstAttribute="leading" secondItem="Bkf-rP-dL6" secondAttribute="leading" id="FO8-bb-vRu"/>
@@ -253,9 +254,8 @@
                             <constraint firstItem="60F-w2-h1f" firstAttribute="trailing" secondItem="vxy-tC-lXa" secondAttribute="trailing" id="Rj2-dP-Q2i"/>
                             <constraint firstItem="Bkf-rP-dL6" firstAttribute="centerY" secondItem="vxy-tC-lXa" secondAttribute="centerY" id="Wkb-ng-du8"/>
                             <constraint firstItem="Bkf-rP-dL6" firstAttribute="bottom" secondItem="vxy-tC-lXa" secondAttribute="bottom" id="XGs-q1-vgI"/>
+                            <constraint firstItem="Yvd-z2-b1e" firstAttribute="top" secondItem="IgY-pv-Ug1" secondAttribute="bottom" constant="14" id="aKH-nB-Sfp"/>
                             <constraint firstItem="Yvd-z2-b1e" firstAttribute="trailing" secondItem="Z1l-OD-iUf" secondAttribute="trailingMargin" id="gcv-gk-lQC"/>
-                            <constraint firstItem="Yvd-z2-b1e" firstAttribute="top" secondItem="IgY-pv-Ug1" secondAttribute="bottom" constant="14" id="qoT-TK-KqL"/>
-                            <constraint firstItem="emM-fE-iEt" firstAttribute="top" secondItem="Bkf-rP-dL6" secondAttribute="bottom" constant="30" id="u2m-yb-TwA"/>
                             <constraint firstItem="Yvd-z2-b1e" firstAttribute="leading" secondItem="Z1l-OD-iUf" secondAttribute="leadingMargin" id="wze-FN-gVX"/>
                         </constraints>
                     </view>
